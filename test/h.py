@@ -5,7 +5,7 @@ def test(app:Flask):
     
     @app.route('/', methods = ['GET'])
     def test_site():
-        return render_template("help/h.html")
+        return render_template("test/h.html")
     
     
 if __name__ == "__main__":
