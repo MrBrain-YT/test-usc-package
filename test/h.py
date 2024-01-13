@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 
-def test(app:Flask):
+def main(app:Flask):
     
     @app.route('/test/', methods = ['GET'])
     def test_site():
